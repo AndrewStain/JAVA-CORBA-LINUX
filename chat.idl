@@ -1,0 +1,12 @@
+
+module  chat
+{
+ interface chatserver
+ {
+  boolean login(in string name);
+  void logout(in string name);
+  void addmessage(in string msg);
+  string getnewmesg(in long cur);
+  };
+
+};
